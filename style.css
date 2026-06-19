@@ -1,0 +1,38 @@
+:root{
+    --color-principal: #1f2937;
+    --color-secundario: #2656a1;
+    --color-texto: #ffffff;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#encabezado {
+    background-color: var(--color-principal);
+    color : var(--color-texto);
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--color-secundario);
+    padding: 15px;
+}
+
+.inicio{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
