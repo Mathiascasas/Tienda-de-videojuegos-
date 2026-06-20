@@ -7,6 +7,7 @@
 body{
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #119740;
 }
 
 #encabezado {
@@ -24,10 +25,46 @@ body{
     padding: 15px;
 }
 
-.inicio{
-    margin: 20px;
-    padding: 20px;
+.menu a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.inicio,
+.juegos,
+.consolas,
+.ofertas,
+.contacto {
     text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--color-secundario);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.9;
 }
 
 footer{
