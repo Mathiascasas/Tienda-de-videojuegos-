@@ -1,13 +1,14 @@
 :root{
-    --color-principal: #1f2937;
-    --color-secundario: #2656a1;
+    --color-principal: #1b1f3b;
+    --color-secundario: #5b3df0;
+    --color-acento: #ff7b54;
     --color-texto: #ffffff;
 }
 
 body{
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #119740;
+    background-color: #0f2b28;
 }
 
 #encabezado {
@@ -35,7 +36,15 @@ body{
     text-decoration: underline;
 }
 
+.menu a.activo {
+    background-color: var(--color-acento);
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 .inicio,
+.destacados,
 .juegos,
 .consolas,
 .ofertas,
@@ -64,7 +73,16 @@ button{
     border-radius: 5px;
 }
 button:hover{
-    opacity: 0.9;
+    background-color: var(--color-acento);
+}
+
+.lista-destacados,
+.lista-juegos,
+.lista-consolas {
+    text-align: left;
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.6;
 }
 
 footer{
