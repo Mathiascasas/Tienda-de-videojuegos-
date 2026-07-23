@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;500&display=swap');
 
 :root{
-    --color-principal: #1b1f3b;
-    --color-secundario: #5b3df0;
+    --color-principal: #200079;
+    --color-secundario: #5310ff;
+    --color-suave: #e7e4ff;
     --color-acento: #ff7b54;
     --color-texto: #ffffff;
 }
