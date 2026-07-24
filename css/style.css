@@ -218,6 +218,10 @@ button:hover{
     width: 100%;
 }
 
+.horario-contacto{
+    grid-column: 2;
+}
+
 /* FOOTER  */
 footer{
     background-color: #200079 !important;
