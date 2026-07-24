@@ -6,13 +6,13 @@
     <title>Gamestore - Bienvenidos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <script src="https://kit.fontawesome.com/c2abba75e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
 
     <header id="encabezado">
         <h1>Gamestore</h1>
-        <p>Bienvenido a tu tienda online favorita de videojuegos.</p>
     </header>
 
     <nav class="menu">
@@ -24,34 +24,215 @@
     </nav>
 
     <main>
-        <section class="inicio">
-            <h2>Bienvenido a Gamestore</h2>
-            <img src="/img/gamestore.jpg" alt="Variedad de videojuegos populares" style="max-width:100%; height:auto; border-radius:10px; margin-bottom:15px;">
-            <p>
-                Descubre los mejores videojuegos, consolas y ofertas exclusivas para cualquier plataforma que tengas.
-            </p>
-            <button>Ver catálogo</button>
-        </section>
+    <section class="hero py-5">
 
-        <section class="destacados">
-            <h2>¿Qué encontrarás en Gamestore?</h2>
-            <ul class="lista-destacados">
-                <li><strong>Juegos</strong> — Los títulos más populares para cualquier consola.</li>
-                <li><strong>Consolas</strong> — Desde Nintendo Switch hasta PS5 y Xbox Series X.</li>
-                <li><strong>Ofertas</strong> — Descuentos exclusivos cada semana.</li>
-                <li><strong>Atención personalizada</strong> — Contáctanos ante cualquier duda.</li>
-            </ul>
-        </section>
-        <section class="inicio destacado-producto">
-            <span class="badge-oferta">MÁS VENDIDO ESTA SEMANA</span>
-            <h2>PlayStation 5</h2>
-            <img src="/img/ps5.jpg" alt="PlayStation 5">
-            <p class="producto-precio" style="font-size:1.4rem;">S/ 2,299</p>
-            <p>
-            La consola más popular del mes, con gráficos de última generación y los mejores exclusivos.
-            </p>
-            <button>Ver detalles</button>
-        </section>
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 text-center text-lg-start">
+
+                <span class="badge bg-warning text-dark mb-3">
+                    🎮 Tu tienda gamer favorita
+                </span>
+
+                <h2 class="display-4 fw-bold text-white">
+                    Bienvenido a <span class="text-warning">Gamestore</span>
+                </h2>
+
+                <p class="lead text-light">
+                    Descubre videojuegos, consolas y accesorios para PlayStation,
+                    Xbox, Nintendo y PC con las mejores ofertas del momento.
+                </p>
+
+                <a href="/pages/juegos.html" class="btn btn-warning btn-lg me-2">
+                    Ver Juegos
+                </a>
+
+                <a href="/pages/ofertas.html" class="btn btn-outline-light btn-lg">
+                    Ver Ofertas
+                </a>
+
+            </div>
+
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+
+                <img src="/img/gamestore.jpg"
+                    alt="Gamestore"
+                    class="img-fluid rounded shadow hero-img">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center text-white mb-5">
+            ¿Qué encontrarás en Gamestore?
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- Juegos -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card h-100 text-center shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            <i class="fa-brands fa-steam"></i> Juegos
+                        </h3>
+
+                        <p class="card-text">
+                            Los mejores títulos y lanzamientos
+                            para todas las plataformas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Consolas -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card h-100 text-center shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            <i class="fa-brands fa-mixer"></i> Consolas
+                        </h3>
+
+                        <p class="card-text">
+                            Encuentra PlayStation, Xbox,
+                            Nintendo y más.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Ofertas -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card h-100 text-center shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            <i class="fa-solid fa-fire"></i> Ofertas
+                        </h3>
+
+                        <p class="card-text">
+                            Descuentos especiales y promociones
+                            cada semana.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Atención -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="card h-100 text-center shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            <i class="fa-regular fa-comment"></i> Atención
+                        </h3>
+
+                        <p class="card-text">
+                            Te ayudamos a elegir los mejores
+                            productos para ti.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="card producto-destacado shadow">
+
+            <div class="row g-0 align-items-center">
+
+                <!-- Imagen -->
+                <div class="col-lg-5 text-center">
+
+                    <img src="/img/ps5.jpg"
+                        class="img-fluid rounded"
+                        alt="PlayStation 5">
+
+                </div>
+
+
+                <!-- Información -->
+                <div class="col-lg-7">
+
+                    <div class="card-body">
+
+                        <span class="badge bg-warning text-dark mb-3">
+                            🔥 MÁS VENDIDO ESTA SEMANA
+                        </span>
+
+                        <h2 class="card-title">
+                            PlayStation 5
+                        </h2>
+
+                        <p class="card-text">
+                            La consola más popular del momento,
+                            con gráficos de última generación,
+                            carga rápida y grandes exclusivos.
+                        </p>
+
+                        <h3 class="precio-producto">
+                            S/ 2,299
+                        </h3>
+
+                        <a href="/pages/consolas.html"
+                        class="btn btn-warning">
+                            Ver detalles
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     </main>
 
     <footer>    
